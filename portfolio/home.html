@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="protfolio.css">
+    <title>protfolio</title>
+
+</head>
+<style>
+</style>
+
+<body>
+    <div class="sidebar">
+        <nav class="side">
+            <ul>
+                <a href="home.html">
+                    <li>PROFILE</li>
+                </a>
+                <a class="active" href="#pro-container">
+                    <li>QUALIFICATION</li>
+                </a>
+                <a href="#section-p1">
+                    <li>PROJECT</li>
+                </a>
+                
+                <a href="#form-details">
+                    <li>CONTACT</li>
+                </a>
+            
+            </ul>
+        </nav>
+
+
+        <div class="box1">
+            <div class="info">
+                <div class="text">
+                    <div class="hello">HI, I AM</div>
+                    <div class="name">ANIKETH PATIL</div>
+                    <!-- <div class="about"></div> -->
+                    <div><span id="element"></span>
+                        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                        <script>
+                            var typed = new Typed('#element', {
+                                strings: ['I AM Web Developer', 'Programmer', 'Software Developer'],
+                                typeSpeed: 50,
+                            });
+                        </script>
+                    </div>
+                    <div class="buttons">
+                        <a href="contact.html" target="_blank"><button class="button">Download CV</button></a>
+                        <a href="contact.html" target="_blank"><button class="button">Contact Me</button></a>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <img src="1692692327858-modified.png" alt="there was supposed to image here">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="pro-container">
+        <h2>Academic Qualification</h2>
+        <div class="container">
+            <div class="head">
+                <h3>B-Tech</h3>
+                <div class="info">
+                    <ul>
+                        <li><b>Department:</b>CSE</li>
+                        <li><b>University/Board:</b>RGUKT</li>
+                        <li><b>CGPA:</b>_</li>
+                        <li><b>Year of passing:</b>pursuing</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="head">
+                <h3>PUC</h3>
+                <div class="info">
+                    <ul>
+                        <li><b>Group:</b>MPC</li>
+                        <li><b>University/Board:</b>RGUKT</li>
+                        <li><b>CGPA:</b>8.6</li>
+                        <li><b>Year of passing:</b>2020-22</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="head">
+                <h3>SSC</h3>
+                <div class="info">
+                    <ul>
+                        <li><b>Academic:<b>SSC</li>
+                        <li><b>University/Board:</b>Vamsi High school</li>
+                        <li><b>CGPA:</b>10</li>
+                        <li><b>Year of passing:</b>2019-20</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact page -->
+    <section id="form-details">
+        <form>
+            <span>Contact Me</span>
+            <h2>I love to hear from you</h2>
+            <input type="text" id="name" placeholder="your name" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" cols="30" rows="10" placeholder="Leave a message for me" required></textarea>
+            <button type="button" id="submit" onclick="sendemail(); reset(); return false">Submit</button>
+        </form>
+
+        <section id="contact-details" class="section-p1">
+            <div class="details">
+                <span>GET IN TOUCH</span>
+                <h2>Contact To know more</h2>
+                <h3>Aniketh Patil</h3>
+                <div>
+                    <li>
+                        <i class="fal fa-map"></i>
+                        <p>Rajiv Gandhi University Of Knowledge Technologies,Basar</p>
+                    </li>
+
+                    <li>
+                        <i class="fal fa-envelope"></i>
+                        <p>anikethpatil575@gmai.com</p>
+                    </li>
+
+                    <li>
+                        <i class="fal fa-phone-alt"></i>
+                        <p>9912181575</p>
+                    </li>
+
+                    <li>
+                        <i class="fal fa-clock"></i>
+                        <p>24/7 Available</p>
+                    </li>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <footer id="section-p1">
+        <div class="col">
+            <img class="logo" src="img2.jpeg" width=100px height="120px" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>|Hipnelly 504102 Tanoor,Dist:Nirmal</p>
+            <p><strong>Phone:</strong>|9912181575</p>
+            <div class="Follow">
+                <h4>Follow Me</h4>
+
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Me</a>
+            <a href="#">Download cv</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact me</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Gmail</a>
+            <a href="#">linked in</a>
+            <a href="#">whatsapp</a>
+            <a href="#">Twitter</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Projects</h4>
+            <p>Ecormerse Website</p>
+            <p>landscape Page</p>
+            <p>Protfolio</p>
+            <div class="row">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+
+        </div>
+
+    </footer>
+    <div class="copyright">
+        <a href="#">copyright <b>&#169;</b> 2023  anikethkadlae</a>
+    </div>
+
+
+</body>
+
+</html>
